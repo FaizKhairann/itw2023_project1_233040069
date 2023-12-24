@@ -28,6 +28,7 @@
         transform: rotate(45deg) translate(-5px, -7px);
     }
 
+
     /* Navigation */
     nav {
         position: fixed;
@@ -103,6 +104,11 @@
     /* Footer Section*/
     footer {
         padding: 1.5rem 0;
+
+        .top {
+            justify-content: center;
+            margin-top: 10px;
+        }
     }
 }
 
@@ -114,5 +120,45 @@
 
     .pre-title {
         font-size: .7rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 380px) {
+    /* Burger */
+    .burger div {
+        width: 22px;
+        height: 2.3px;
+        margin: 4px;
+    }
+
+    .toggle-burger .line1 {
+        transform: rotate(-45deg) translate(-3px, 6px);
+    }
+
+    .toggle-burger .line2 {
+        opacity: 0;
+    }
+
+    .toggle-burger .line3 {
+        transform: rotate(45deg) translate(-3px, -6px);
+    }
+}
+
+@media screen and (max-width:280px) {
+    /* Experience Section Galaxy Fold */
+    .Experience-grid {
+        grid-template-columns: auto;
+    }
+
+    /* About img */
+    .About-img img {
+        width: 180px;
+    }
+
+    /* Contact Section */
+    .contact {
+        grid-template-columns: auto;
     }
 }

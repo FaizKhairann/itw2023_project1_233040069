@@ -199,7 +199,7 @@ nav ul li a:hover {
 
 /*About Section*/
 #about {
-   background-color: var(--primaryBackgroundColor);
+   background-color: var(--secondaryBackgroundColor);
    padding: var(--sectionPadding);
 }
 
@@ -214,14 +214,14 @@ nav ul li a:hover {
 .About-img img {
     width: 230px;
     border-radius: 30px;   
-    
+    text-align: center;
 }
 
 .about-me {
     padding: 1rem 2rem;
     justify-content: center;
     text-align: center;
-    background-color: var(--primaryBackgroundColor);
+    background-color: var(--secondaryBackgroundColor);
     border-radius: var(--itemBorderRadius);
 }
 
@@ -284,7 +284,7 @@ nav ul li a:hover {
 
 /* Experience */
 #experiences {
-    background-color: var(--primaryBackgroundColor);
+    background-color: var(--secondaryBackgroundColor);
     padding: var(--sectionPadding);
 }
 
@@ -316,6 +316,10 @@ nav ul li a:hover {
 
 .education-years {
     margin-bottom: 3rem;
+}
+
+.Experience-right {
+    text-align: center;
 }
 
 /* The dot on the line */
@@ -403,25 +407,39 @@ nav ul li a:hover {
     margin-bottom: .6rem;
  }
 
+ .contact-item-detail svg {
+    background: var(--thirdBackgroundColor);
+    width: 24px;
+    height: 24px;
+    border: var(--borderColor);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--primaryIconColor);
+ }
+
  /* Footer Section */
  footer {
-    padding: 4rem 0;
+    padding-top: 4rem;
     background: var(--primaryBackgroundColor);
     text-align: center;
  }
 
- .footer-icons {
-    margin-bottom: 1rem;
+.top {
+    display: flex;
+    justify-content: end;
+}
+
+
+ .top svg{
+    width: 40px;
+    height: 40px;
+    fill: var(--primaryIconColor);
+    margin-top: 50%;
+
  }
 
- .footer-icons a {
-    margin: 0 .5rem;
- }
-
- .footer-icons svg {
-    fill: #3e3f40;
- }
-
- .footer-icons a:hover svg {
-    fill: black;
+ .top svg:hover {
+    fill: var(--primaryIconColorHover);
  }
