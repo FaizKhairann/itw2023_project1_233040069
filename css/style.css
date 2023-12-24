@@ -318,10 +318,6 @@ nav ul li a:hover {
     margin-bottom: 3rem;
 }
 
-.Experience-right {
-    text-align: center;
-}
-
 /* The dot on the line */
 .education .line div::before {
     content: "";
