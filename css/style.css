@@ -323,7 +323,7 @@ nav ul li a:hover {
     content: "";
     width: 15px;
     height: 15px;
-    background: var(--borderColor);
+    background: #ddd8d8;
     border-radius: 50%;
     position: absolute;
     left: -6px;
